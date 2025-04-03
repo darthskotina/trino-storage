@@ -5,12 +5,12 @@
     <parent>
         <groupId>io.airlift</groupId>
         <artifactId>airbase</artifactId>
-        <version>229</version>
+        <version>234</version>
     </parent>
 
     <groupId>org.ebyhr</groupId>
     <artifactId>trino-storage</artifactId>
-    <version>472-SNAPSHOT</version>
+    <version>474-SNAPSHOT</version>
     <packaging>trino-plugin</packaging>
     <description>Trino - Storage Connector</description>
 
@@ -47,7 +47,7 @@
         <air.build.jvmsize>4g</air.build.jvmsize>
 
         <dep.trino.version>472</dep.trino.version>
-        <dep.airlift.version>312</dep.airlift.version>
+        <dep.airlift.version>319</dep.airlift.version>
         <dep.slice.version>2.3</dep.slice.version>
         <dep.opentelemetry.version>1.47.0</dep.opentelemetry.version>
         <dep.opentelemetry-instrumentation.version>2.13.3</dep.opentelemetry-instrumentation.version>
@@ -65,7 +65,7 @@
         <dep.assertj-core.version>3.27.3</dep.assertj-core.version>
         <dep.logback.version>1.5.17</dep.logback.version>
         <dep.plugin.surefire.version>3.2.5</dep.plugin.surefire.version>
-        <dep.jna.version>5.16.0</dep.jna.version>
+        <dep.jna.version>5.17.0</dep.jna.version>
 
         <project.scm.id>github</project.scm.id>
     </properties>
